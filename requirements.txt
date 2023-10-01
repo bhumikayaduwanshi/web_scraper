@@ -1,259 +1,35 @@
-aiohttp==3.8.2
-aiosignal==1.3.1
-alembic==1.11.1
-algomojo==1.4
-alpaca==1.0.0
-alpaca-py==0.8.2
-alpaca-trade-api==3.0.2
-annotated-types==0.5.0
-anyio==3.7.1
-apache-beam==2.49.0
-appdirs==1.4.4
-APScheduler==3.10.1
-apturl==0.5.2
-asttokens==2.2.1
-async-generator==1.10
-async-timeout==4.0.2
-attrs==23.1.0
-avro==1.11.2
-backcall==0.2.0
-backports.zoneinfo==0.2.1
-beautifulsoup4==4.12.2
-blinker==1.4
-Brlapi==0.7.0
-bs4==0.0.1
-cachetools==5.3.1
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1631874778482/work
+Bottleneck @ file:///work/ci_py311/bottleneck_1676827011612/work
+Brotli @ file:///work/ci_py311/brotli-split_1676830125088/work
 certifi==2023.7.22
-certipy==0.1.3
-cffi==1.15.1
-chardet==3.0.4
-charset-normalizer==3.2.0
-click==8.1.6
-cloudpickle==2.2.1
-colorama==0.4.3
-comm==0.1.4
-command-not-found==0.3
-crcmod==1.7
-cryptography==41.0.2
-cssselect==1.2.0
-cupshelpers==1.0
-dbus-python==1.2.16
-debugpy==1.6.7
-decorator==4.4.2
-defer==1.0.6
-deprecation==2.1.0
-dill==0.3.1.1
-distro==1.4.0
-distro-info==0.23+ubuntu1.1
-dnspython==2.4.2
-docopt==0.6.2
-entrypoints==0.3
-exceptiongroup==1.1.2
-exchange-calendars==4.2.8
-executing==1.2.0
-fake-useragent==1.1.3
-fastapi==0.103.1
-fastavro==1.8.0
-fasteners==0.18
-feedfinder2==0.0.4
-feedparser==6.0.10
-filelock==3.12.2
-filetype==1.2.0
-frozendict==2.3.8
-frozenlist==1.4.0
-google-api-core==2.11.1
-google-apitools==0.5.31
-google-auth==2.22.0
-google-auth-httplib2==0.1.0
-google-cloud-aiplatform==1.31.1
-google-cloud-bigquery==3.11.4
-google-cloud-bigquery-storage==2.22.0
-google-cloud-bigtable==2.21.0
-google-cloud-core==2.3.3
-google-cloud-datastore==2.17.0
-google-cloud-dlp==3.12.2
-google-cloud-language==2.11.0
-google-cloud-pubsub==2.18.3
-google-cloud-pubsublite==1.8.3
-google-cloud-recommendations-ai==0.10.4
-google-cloud-resource-manager==1.10.3
-google-cloud-spanner==3.40.1
-google-cloud-storage==2.10.0
-google-cloud-videointelligence==2.11.3
-google-cloud-vision==3.4.4
-google-crc32c==1.5.0
-google-resumable-media==2.5.0
-googleapis-common-protos==1.60.0
-greenlet==2.0.2
-grpc-google-iam-v1==0.12.6
-grpcio==1.57.0
-grpcio-status==1.57.0
-h11==0.14.0
-hdfs==2.7.2
-html5lib==1.1
-httplib2==0.14.0
-idna==3.4
-imageio==2.31.3
-imageio-ffmpeg==0.4.8
-importlib-metadata==6.8.0
-importlib-resources==6.0.0
-install==1.3.5
-ipykernel==6.25.0
-ipython==8.12.2
-jedi==0.19.0
-jieba3k==0.35.1
-Jinja2==3.1.2
-joblib==1.3.1
-jsonschema==4.18.4
-jsonschema-specifications==2023.6.1
-jupyter-client==8.3.0
-jupyter-core==5.3.1
-jupyter-telemetry==0.1.0
-jupyterhub==4.0.1
-keyring==18.0.1
-korean-lunar-calendar==0.3.1
-language-selector==0.1
-launchpadlib==1.10.13
-lazr.restfulclient==0.14.2
-lazr.uri==1.0.3
-louis==3.12.0
-lxml==4.9.3
-macaroonbakery==1.3.1
-Mako==1.2.4
-MarkupSafe==2.1.3
-matplotlib-inline==0.1.6
-moviepy==1.0.3
-msgpack==1.0.3
-multidict==5.2.0
-multitasking==0.0.11
-nest-asyncio==1.5.7
-netifaces==0.10.4
-newspaper3k==0.2.8
-nltk==3.8.1
-numpy==1.24.4
-oauth2client==4.1.3
-oauthlib==3.2.2
-objsize==0.6.1
-olefile==0.46
-opencv-python==4.8.0.76
-orjson==3.9.5
-outcome==1.2.0
-overrides==6.5.0
-packaging==23.1
-pamela==1.1.0
-pandas==2.0.3
-pandas-ta==0.3.14b0
-parse==1.19.1
-parso==0.8.3
-pbr==5.11.1
-pexpect==4.6.0
-pickleshare==0.7.5
-Pillow==10.0.0
-pkgutil-resolve-name==1.3.10
-platformdirs==3.10.0
-proglog==0.1.10
-prometheus-client==0.17.1
-prompt-toolkit==3.0.39
-proto-plus==1.22.3
-protobuf==4.23.4
-psutil==5.9.5
-psycopg2-binary==2.9.6
-pure-eval==0.2.2
-py4j==0.10.9.7
-pyarrow==11.0.0
-pyasn1==0.5.0
-pyasn1-modules==0.3.0
-pycairo==1.16.2
-pycparser==2.21
-pycups==1.9.73
-pydantic==1.10.12
-pydantic-core==2.4.0
-pydot==1.4.2
-pyee==8.2.2
-Pygments==2.15.1
-PyGObject==3.36.0
-PyJWT==1.7.1
-pyluach==2.2.0
-pymacaroons==0.13.0
-pymongo==4.5.0
-PyNaCl==1.3.0
-pyOpenSSL==23.2.0
-pyparsing==3.1.1
-pyppeteer==1.0.2
-pyquery==2.0.0
-pyRFC3339==1.1
-PySocks==1.7.1
-pyspark==3.4.1
-pytesseract==0.3.10
-python-apt==2.0.1+ubuntu0.20.4.1
-python-dateutil==2.8.2
-python-debian==0.1.36+ubuntu1.1
-python-dotenv==1.0.0
-python-json-logger==2.0.7
-python-magic==0.4.27
-python-multipart==0.0.6
-pytz==2023.3
-pyxdg==0.26
-PyYAML==6.0.1
-pyzmq==25.1.0
-referencing==0.29.3
-regex==2023.6.3
-reportlab==3.5.34
-requests==2.31.0
-requests-file==1.5.1
-requests-html==0.10.0
-requests-oauthlib==1.3.1
-requests-unixsocket==0.2.0
-rpds-py==0.8.11
-rsa==4.9
-ruamel.yaml==0.17.32
-ruamel.yaml.clib==0.2.7
-SecretStorage==2.3.1
-selenium==4.10.0
-sgmllib3k==1.0.0
-Shapely==1.8.5.post1
-simplejson==3.16.0
-six==1.16.0
-sniffio==1.3.0
-sortedcontainers==2.4.0
-soupsieve==2.4.1
-SpeechRecognition==3.10.0
-SQLAlchemy==2.0.19
-sqlparse==0.4.4
-sseclient-py==1.7.2
-ssh-import-id==5.10
-stack-data==0.6.2
-starlette==0.27.0
-systemd-python==234
-testresources==2.0.1
-tinysegmenter==0.3
-tldextract==3.4.4
-toolz==0.12.0
-tornado==6.3.2
-tqdm==4.65.0
-traitlets==5.9.0
-trio==0.22.2
-trio-websocket==0.10.3
-tweepy==4.14.0
-typing-extensions==4.7.1
-tzdata==2023.3
-tzlocal==5.0.1
-ubuntu-advantage-tools==8001
-ubuntu-drivers-common==0.0.0
-ufw==0.36
-unattended-upgrades==0.1
-urllib3==1.26.16
-uvicorn==0.23.2
-w3lib==2.1.1
-wadllib==1.3.3
-wcwidth==0.2.6
-webdriver-manager==4.0.0
-webencodings==0.5.1
-websocket-client==1.6.1
-websockets==10.4
-wsproto==1.2.0
-xkit==0.0.0
-yarl==1.9.2
-yfinance==0.2.26
-zipp==3.16.2
-zstandard==0.21.0
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1688813409104/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+cssselect @ file:///home/conda/feedstock_root/build_artifacts/cssselect_1666980406338/work
+fake-useragent @ file:///home/conda/feedstock_root/build_artifacts/fake-useragent_1690991150353/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1688754491823/work
+lxml @ file:///croot/lxml_1695058164555/work
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+numexpr @ file:///croot/numexpr_1683221822650/work
+numpy @ file:///croot/numpy_and_numpy_base_1695830428084/work/dist/numpy-1.26.0-cp311-cp311-linux_x86_64.whl#sha256=184178a893ff0b5e0cb1b0b7a0dddff49dc91424c4e4a01e29bcb05f27a698a6
+pandas @ file:///croot/pandas_1692289311655/work
+parse @ file:///home/conda/feedstock_root/build_artifacts/parse_1688649649485/work
+pyee @ file:///home/conda/feedstock_root/build_artifacts/pyee_1644152123334/work
+pyppeteer @ file:///home/conda/feedstock_root/build_artifacts/pyppeteer_1643233645996/work
+pyquery @ file:///home/conda/feedstock_root/build_artifacts/pyquery_1672254940892/work
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz @ file:///croot/pytz_1695131579487/work
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1684774241324/work
+requests-html @ file:///home/conda/feedstock_root/build_artifacts/requests-html_1624699576190/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1691671248568/work
+tzdata @ file:///croot/python-tzdata_1690578112552/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1695649846578/work
+w3lib @ file:///home/conda/feedstock_root/build_artifacts/w3lib_1691236459676/work
+websockets @ file:///croot/websockets_1678966790840/work
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1695255097490/work
